@@ -1,5 +1,5 @@
 project(
-  'dactyl',
+  'skadi',
   'cpp',
   version: '0.1.0',
   default_options: [
@@ -18,7 +18,7 @@ glm_dep = declare_dependency(
 )
 
 exe = executable(
-  'dactyl',
+  'skadi',
   ['src/dactyl.cc', 'src/key_data.cc'],
   include_directories: dactyl_inc,
   dependencies: [glm_dep],

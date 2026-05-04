@@ -19,7 +19,7 @@ for f in "${required_scad[@]}"; do
 done
 
 if [[ "$missing" -ne 0 ]]; then
-    echo "SCAD files are missing, please generate them with './build/dactyl'" >&2
+    echo "SCAD files are missing, please generate them with './build/skadi'" >&2
     exit 1
 fi
 

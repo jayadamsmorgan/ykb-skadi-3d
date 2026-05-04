@@ -1,11 +1,11 @@
-# YKB Dactyl
+# YKB Skadi 3D files
 
 ## Build
 
 Clone repository with its submodules:
 
 ```bash
-git clone https://github.com/jayadamsmorgan/ykb-dactyl --recursive
+git clone https://github.com/jayadamsmorgan/ykb-skadi-3d --recursive
 ```
 Build:
 
@@ -17,7 +17,7 @@ meson compile -C build
 Run:
 
 ```bash
-./build/dactyl
+./build/skadi
 ```
 This will generate OpenSCAD files in `output/scad` directory.
 
